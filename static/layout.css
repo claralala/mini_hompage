@@ -1,0 +1,163 @@
+body {
+    background-color: #a3a3a3;
+    background-image: url("../static/images/pattern.png");
+    background-size: 100px;
+  
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .bookcover {
+    background-color: #b4d1da;
+    border-radius: 9px;
+    border: 1px solid #738186;
+  
+    width: 950px;
+    height: 550px;
+  
+    margin: 70px auto;
+  
+    position: relative;
+  }
+  .bookdot {
+    position: absolute;
+    border-radius: 9px;
+    border: 2px dashed white;
+    
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+  
+  .page{
+    background-color: white;
+    border-radius: 9px;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    padding: 15px;
+  }
+.profile-container{
+    flex:0.4;
+
+    display:flex;
+    flex-direction:column;
+    margin: 0px,10px,0px,0px; 
+}
+.profile-top {
+    flex:0.1;
+    border:5px;
+    font-size:14px;
+    text-align: center;
+}
+.profile-bottom {
+    flex:2;
+    border: 1px solid gray;
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 18px;
+    font-family: 'Middleschool_student'
+   
+}
+.dropdown {
+    flex: 0 0 auto;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 4px;
+    margin: 10px 3px 3px 3px;
+    font-size: 13px;
+}
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown-title {
+    padding: 3px;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+  }
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-bottom: 5px solid #838383;
+}
+
+.contents-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+    
+}
+.title{
+  flex:1;
+}
+.url{
+  flex: 1;
+  font-size: 2 rem;
+  text-align: end;
+}
+.contents-top {
+    display: flex;
+    flex: 0.1;
+    margin: 6px;
+    font-family: 'Middleschool_student';
+  }
+.contents-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    font-family: 'NanumSquare';
+    border: 1px solid  lightgrey;
+    border-radius: 9px;
+    background-color: white;
+    padding: 14px;
+  }
+.contents-title {
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 15px;
+    color: #b8ff33;
+  }
+.miniroom-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.menu-container {
+    flex:0.3;
+    display:flex;
+    flex-direction: column;
+}
+.menu-container > a {
+  padding:6px;
+  margin:6px 0;
+  background-color: #3b87ab;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #617dc1;
+  color: white;
+  text-decoration-skip:none;
+  font-family: "NeoDunggeunmo";
+  font-size:0.85rem;
+}
+.menu-container >a:hover{
+  background-color:#617dc1;
+}

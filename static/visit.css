@@ -1,0 +1,64 @@
+.contents-bottom {
+    position: relative;
+}
+
+.visit-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.visit-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.visit-info {
+    background-color: #e7e7e7;
+    padding: 10px 12px;
+    margin-bottom: 25px;
+}
+
+.name {
+    color: blue;
+    font-size: 14px;
+}
+
+.fas {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.visit-content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.visit-profile {
+    flex: 0.3;
+    background-image: cover;
+    margin-right: 20px;
+}
+
+.visit-comment {
+    flex: 2;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.visit-profile > img {
+    width: 100%;
+}
+
+.background {
+    background-image: url("./static/images/background01.jpg")
+}

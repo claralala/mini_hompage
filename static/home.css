@@ -1,0 +1,34 @@
+.updated-list {
+    flex: 0.8;
+    padding: 3px;
+  }
+
+  .updated-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+  
+.updated-contents {
+    display: flex;
+    flex: 0 0 auto;
+    margin: 3px;
+    font-size: 13px;
+}
+  
+
+.home-title{
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 17px;
+    color: #F69B94;
+    border-bottom: 1px solid grey;
+}
+
+
+.updated-contents {
+    display: flex;
+    flex: auto;
+    margin-top: 3px;
+    margin-bottom: 38px;
+    font-size: 13px;
+  }  

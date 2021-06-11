@@ -1,0 +1,115 @@
+.contents-bottom {
+    position: relative;
+}
+
+.date-box {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    height:3rem;
+
+    display: flex;
+    border: 1px solid grey;
+    align-items: center;
+}
+
+.diary-box {
+    position: absolute;
+    top: 83px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fa8279;
+}
+
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.date {
+    flex-basis: 18px;
+    padding: 0 4px;
+    color: #707070;
+    cursor:pointer;
+    font-size: 18px;
+    text-align: center;
+}
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;    
+}
+.color-red{
+    color:red;
+}
+.color-blue{
+    color:blue;
+}
+
+.diary-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.diary-date {
+    flex: 0.1;
+    margin: 5px 10px;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 16px;
+    color: #fa8279;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.diary-text {
+    flex: 1;
+    padding: 25px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 130%;
+}
+
+.button-box{
+    display:flex;
+    justify-content: center;
+}
+
+.diary-button {
+    margin-top: 1rem;
+    backgroung:#fff;
+    color:#fff;
+    padding:1rem;
+    cursor: pointer;
+
+    transition: 800ms ease all;
+    border: none;
+}
+.diary-button:hover {
+    background-color: #96B0E5;
+    color:#fff;
+}
+.fas {
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+}
